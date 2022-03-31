@@ -1,0 +1,17 @@
+.flatpickr-weekdays {
+  background-color: #20293c;
+}
+
+.flatpickr-weekdays .flatpickr-weekday {
+    color: #fff;
+  }
+  
+
+.flatpickr-day.selected,
+.flatpickr-day.startRange {
+  background: #446cb3;
+}
+
+.flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n+1)), .flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n+1)), .flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n+1)){
+background: #446cb3;
+}
